@@ -13,7 +13,6 @@
 .com.apple.timemachine.donotpresent
 ehthumbs.db
 Thumbs.db
-*.icloud
 CACHEDIR.TAG
 
 # remote AFP share
@@ -106,3 +105,8 @@ labs/lab07/sca/dependency-check-report/
 
 # Browser automation output (Playwright MCP screenshots)
 .playwright-mcp/
+
+# iCloud Drive: conflict copies ("cli 2.py", "sbom 2/", also 3..9) and evicted-file stubs
+* [2-9]
+* [2-9].*
+*.icloud
